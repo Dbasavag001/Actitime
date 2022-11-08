@@ -34,8 +34,8 @@ public class CustomerModule extends BaseClass {
 		Thread.sleep(4000);
 		String actualCustName = t.getActualCustCreated().getText();
 		Assert.assertEquals(actualCustName, expectedCustName);
-//		SoftAssert s=new SoftAssert();
+//		SoftAssert s=new SoftAssert(); 
 //		s.assertEquals(actualCustName, expectedCustName);
 //		s.assertAll();
 	}
-}
+} 
